@@ -14,5 +14,10 @@ Object subclass: Customer [
     toString [
         ^name
     ]
-
+ 
 ]
+
+"|c|
+c:= Customer new: 'Timmy'
+(c toString) printNl"
+

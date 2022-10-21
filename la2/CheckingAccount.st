@@ -1,6 +1,11 @@
 Account subclass: CheckingAccount[
     
-    CheckingAccount class
-]
+    CheckingAccount class [
+        new: n customer: c balance: b [
+            ^super new: n customer: c balance: b 
+        ]
+    ]
 
-accrue: rate []
+    accrue: rate []
+
+]
